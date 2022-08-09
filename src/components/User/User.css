@@ -1,0 +1,10 @@
+.single-user{
+    min-width: 420px;
+    display: flex;
+    border: 2px solid sandybrown;
+    padding: 10px;
+    margin: 5px 10px;
+}
+.user-info{
+    margin-left: 15px;
+}
