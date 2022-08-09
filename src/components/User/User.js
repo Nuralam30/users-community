@@ -22,8 +22,8 @@ const User = (props) => {
                 <p>email : {email}</p>
                 <p>Location : {location.city + ', ' + location.country}</p>
                 <p>Phone : {phoneNum}</p>
-                <button onClick={showPhone} style={{marginRight: '10px'}}>Show Phone</button>
-                <button onClick={() =>addMember(fullName)}>Add me</button>
+                <button className='btn btn-sm btn-info' onClick={showPhone} style={{marginRight: '10px'}}>Show Phone</button>
+                <button className='btn btn-sm btn-primary' onClick={() =>addMember(fullName)}>Add me</button>
             </div>
         </div>
     );
