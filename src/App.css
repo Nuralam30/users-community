@@ -3,7 +3,17 @@ h1, h2, h3, h4, h5, h6{
   padding: 0;
 }
 .App{
-  padding: 0px 100px;
+  padding: 0px 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.all-user{
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
+}
+.team-members{
+  min-width: 200px;
+  padding: 20px 10px;
 }

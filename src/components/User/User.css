@@ -1,5 +1,5 @@
 .single-user{
-    min-width: 420px;
+    width: 420px;
     display: flex;
     border: 2px solid sandybrown;
     padding: 10px;

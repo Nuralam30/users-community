@@ -6,9 +6,11 @@ const User = (props) => {
 
     const {name, email, phone, picture, location} = props.user;
     const fullName = name.first + ' ' + name.last;
-    const [phoneNum, setPhoneNum] = useState();
 
+    const [phoneNum, setPhoneNum] = useState();
     const showPhone = () => setPhoneNum(phone)
+
+    const addMember = props.addMember;
 
     return (
         <div className='single-user'>
@@ -21,7 +23,7 @@ const User = (props) => {
                 <p>Location : {location.city + ', ' + location.country}</p>
                 <p>Phone : {phoneNum}</p>
                 <button onClick={showPhone} style={{marginRight: '10px'}}>Show Phone</button>
-                <button>Add me</button>
+                <button onClick={() =>addMember(fullName)}>Add me</button>
             </div>
         </div>
     );
