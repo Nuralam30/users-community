@@ -27,7 +27,7 @@ function App() {
         }
       </div>
       <div className="team-members">
-        <h4>Team Members</h4>
+        <h3 className='text-danger'>Team Members</h3>
         <ul>
           {
             team.map( (member, ind) => <li key={ind}>{member}</li>)
