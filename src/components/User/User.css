@@ -8,3 +8,7 @@
 .user-info{
     margin-left: 15px;
 }
+button{
+    cursor: pointer;
+    padding: 5px;
+}
